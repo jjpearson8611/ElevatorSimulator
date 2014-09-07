@@ -1,0 +1,9 @@
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\bin\Debug\ElevatorSimulator.exe.config
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\bin\Debug\ElevatorSimulator.exe
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\bin\Debug\ElevatorSimulator.pdb
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.csprojResolveAssemblyReference.cache
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.Form1.resources
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.Properties.Resources.resources
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.csproj.GenerateResource.Cache
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.exe
+c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.pdb
