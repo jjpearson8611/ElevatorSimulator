@@ -105,9 +105,32 @@ namespace ElevatorSimulator
 
         #endregion
 
-        private void label19_Click(object sender, EventArgs e)
-        {
 
+        private void randomPersonButton_Click(object sender, EventArgs e)
+        {
+            Random randomGen = new Random();
+
+            switch (randomGen.Next(0, 6))
+            {
+                case 0:
+                    this.floorZeroPersonButton_Click(sender, e);
+                    break;
+                case 1:
+                    this.floorOnePersonButton_Click(sender, e);
+                    break;
+                case 2:
+                    this.floorTwoPersonButton_Click(sender, e);
+                    break;
+                case 3:
+                    this.floorThreePersonButton_Click(sender, e);
+                    break;
+                case 4:
+                    this.floorFourPersonButton_Click(sender, e);
+                    break;
+                case 5:
+                    this.floorFivePersonButton_Click(sender, e);
+                    break;
+            }
         }
     }
 }

@@ -17,9 +17,19 @@ namespace ElevatorSimulator
         {
             this.ElevatorNumber = elevatorNumber;
             this.CurrentFloor = startingFloor;
+            Direction = 0;
+            loading = true;
+            otherDirection = 0;
         }
 
+
+        #region Properites
         //Properties
+        public bool loading
+        {
+            get;
+            set;
+        }
         public int CurrentFloor
         {
             get;
@@ -30,6 +40,11 @@ namespace ElevatorSimulator
             get;
             set;
         }
+        public int otherDirection
+        {
+            get;
+            set;
+        }   
         public int Direction
         {
             get;
@@ -50,30 +65,62 @@ namespace ElevatorSimulator
             get;
             set;
         }
+        #endregion
 
         //Public Methods
         public ArrayList doOneTick(ArrayList AllPeople)
         {
-            Direction = 0;
             if (AllPeople.Count == 0)
             {
                 goToGroundFloor();
             }
             else
             {
-                GetPeopleAtLevel(AllPeople);
-                foreach (Person person in DropPeopleOff())
+                //we are standing still are we done moving what now
+                if (Direction == 0)
                 {
-                    AllPeople.Remove(person);
+                    if (loading)
+                    {
+                        GetPeopleAtLevel(AllPeople);
+                        foreach (Person person in DropPeopleOff())
+                        {
+                            AllPeople.Remove(person);
+                        }
+                        loading = false;
+                    }
+                    else
+                    {
+                        Direction = otherDirection;
+                    }
                 }
-                //determine which way to go
-                
+
+                //going upwards
+                if (Direction == 1)
+                {
+                    if (CurrentFloor == 5)
+                    {
+                        Direction = -1;
+                    }
+                    otherDirection = Direction;
+                }
+
+                //going downwards
+                if (Direction == -1)
+                {
+                    if (CurrentFloor == 0)
+                    {
+                        Direction = 1;
+                    }
+                    otherDirection = Direction;
+                }
+
             }
 
             updateGUI();
             return AllPeople;
         }
 
+        #region HelperFunctions
         //Private Methods
         private void goToGroundFloor()
         {
@@ -97,13 +144,17 @@ namespace ElevatorSimulator
 
             foreach (var person in AllPeople)
             {
+                //the person wants this floor and is in the cart
                 if (((Person)person).CurrentFloor == this.CurrentFloor && ((Person)person).CurrentCart == null)
                 {
+                    //are we going the way that the person wants?
                     if (this.Direction > 0 && ((Person)person).GetDirection() > 0)
                     {
                         ((Person)person).CurrentCart = this;
                         temp.Add(person);
                     }
+
+                    //are we going the way that the person wants?
                     else if (this.Direction < 0 && ((Person)person).GetDirection() < 0)
                     {
                         ((Person)person).CurrentCart = this;
@@ -131,6 +182,7 @@ namespace ElevatorSimulator
             }
             return returningList;
         }
+        #endregion
 
         #region GuiUpdate
         private void setFloor(int floor, int oldFloor = -8675309)

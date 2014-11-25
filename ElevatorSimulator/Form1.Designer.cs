@@ -30,6 +30,25 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.floorZeroPersonButton = new System.Windows.Forms.Button();
             this.floorOnePersonButton = new System.Windows.Forms.Button();
             this.floorTwoPersonButton = new System.Windows.Forms.Button();
@@ -52,72 +71,52 @@
             this.floorFive = new System.Windows.Forms.Label();
             this.floorZero = new System.Windows.Forms.Label();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.ovalShape1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape2 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape3 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape4 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape5 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape6 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape7 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape8 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.ovalShape8 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape9 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape10 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape9 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape11 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape12 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape10 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape13 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape14 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape11 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape15 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape16 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape12 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.lineShape17 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape18 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lineShape20 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape21 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape22 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape23 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape24 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape25 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape19 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape26 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape27 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape28 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape29 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape30 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape31 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape32 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape33 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape34 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lineShape33 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape32 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape31 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape30 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape29 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape28 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape27 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape26 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape19 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape25 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape24 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape23 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape22 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape21 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape20 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape18 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape17 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape12 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.lineShape16 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape15 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape11 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.lineShape14 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape13 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape10 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.lineShape12 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape11 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape9 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.lineShape10 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape9 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape8 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.lineShape8 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape7 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovalShape6 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovalShape5 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovalShape4 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovalShape3 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovalShape2 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovalShape1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -134,6 +133,11 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label24);
+            this.tabPage1.Controls.Add(this.label23);
+            this.tabPage1.Controls.Add(this.label22);
+            this.tabPage1.Controls.Add(this.label21);
+            this.tabPage1.Controls.Add(this.label20);
             this.tabPage1.Controls.Add(this.label19);
             this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.label17);
@@ -183,6 +187,177 @@
             this.tabPage1.Text = "GUI";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(767, 181);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(35, 13);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Down";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(848, 181);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(21, 13);
+            this.label18.TabIndex = 43;
+            this.label18.Text = "Up";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(848, 563);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(21, 13);
+            this.label17.TabIndex = 42;
+            this.label17.Text = "Up";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(848, 464);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(21, 13);
+            this.label16.TabIndex = 41;
+            this.label16.Text = "Up";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(848, 365);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(21, 13);
+            this.label15.TabIndex = 40;
+            this.label15.Text = "Up";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(848, 265);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(21, 13);
+            this.label14.TabIndex = 39;
+            this.label14.Text = "Up";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(814, 49);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(21, 13);
+            this.label13.TabIndex = 38;
+            this.label13.Text = "Up";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(706, 149);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 37;
+            this.label11.Text = "Unload";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(708, 93);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(31, 13);
+            this.label12.TabIndex = 36;
+            this.label12.Text = "Load";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(706, 241);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(41, 13);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "Unload";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(706, 182);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(31, 13);
+            this.label10.TabIndex = 34;
+            this.label10.Text = "Load";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(706, 332);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(41, 13);
+            this.label7.TabIndex = 33;
+            this.label7.Text = "Unload";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(706, 273);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "Load";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(706, 432);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.TabIndex = 31;
+            this.label5.Text = "Unload";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(706, 373);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "Load";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(706, 541);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.TabIndex = 29;
+            this.label3.Text = "Unload";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(706, 488);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Load";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(706, 632);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Unload";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(706, 579);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Load";
             // 
             // floorZeroPersonButton
             // 
@@ -252,6 +427,7 @@
             this.randomPersonButton.TabIndex = 19;
             this.randomPersonButton.Text = "Add Person";
             this.randomPersonButton.UseVisualStyleBackColor = true;
+            this.randomPersonButton.Click += new System.EventHandler(this.randomPersonButton_Click);
             // 
             // floorZeroListBox
             // 
@@ -443,64 +619,306 @@
             this.ovalShape4,
             this.ovalShape3,
             this.ovalShape2,
-            this.ovalShape1,
-            this.lineShape6,
-            this.lineShape4,
-            this.lineShape3,
-            this.lineShape2,
-            this.lineShape1,
-            this.lineShape5});
+            this.ovalShape1});
             this.shapeContainer1.Size = new System.Drawing.Size(1122, 720);
             this.shapeContainer1.TabIndex = 11;
             this.shapeContainer1.TabStop = false;
             // 
-            // lineShape6
+            // lineShape34
             // 
-            this.lineShape6.Name = "lineShape6";
-            this.lineShape6.X1 = 44;
-            this.lineShape6.X2 = 385;
-            this.lineShape6.Y1 = 662;
-            this.lineShape6.Y2 = 662;
+            this.lineShape34.Name = "lineShape34";
+            this.lineShape34.X1 = 835;
+            this.lineShape34.X2 = 835;
+            this.lineShape34.Y1 = 636;
+            this.lineShape34.Y2 = 676;
             // 
-            // lineShape4
+            // lineShape33
             // 
-            this.lineShape4.Name = "lineShape4";
-            this.lineShape4.X1 = 43;
-            this.lineShape4.X2 = 384;
-            this.lineShape4.Y1 = 461;
-            this.lineShape4.Y2 = 461;
+            this.lineShape33.Name = "lineShape33";
+            this.lineShape33.X1 = 797;
+            this.lineShape33.X2 = 798;
+            this.lineShape33.Y1 = 638;
+            this.lineShape33.Y2 = 673;
             // 
-            // lineShape3
+            // lineShape32
             // 
-            this.lineShape3.Name = "lineShape3";
-            this.lineShape3.X1 = 43;
-            this.lineShape3.X2 = 384;
-            this.lineShape3.Y1 = 362;
-            this.lineShape3.Y2 = 362;
+            this.lineShape32.Name = "lineShape32";
+            this.lineShape32.X1 = 833;
+            this.lineShape32.X2 = 800;
+            this.lineShape32.Y1 = 62;
+            this.lineShape32.Y2 = 66;
             // 
-            // lineShape2
+            // lineShape31
             // 
-            this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 43;
-            this.lineShape2.X2 = 384;
-            this.lineShape2.Y1 = 162;
-            this.lineShape2.Y2 = 162;
+            this.lineShape31.Name = "lineShape31";
+            this.lineShape31.X1 = 831;
+            this.lineShape31.X2 = 801;
+            this.lineShape31.Y1 = 671;
+            this.lineShape31.Y2 = 672;
             // 
-            // lineShape1
+            // lineShape30
             // 
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 43;
-            this.lineShape1.X2 = 384;
-            this.lineShape1.Y1 = 262;
-            this.lineShape1.Y2 = 262;
+            this.lineShape30.Name = "lineShape30";
+            this.lineShape30.X1 = 835;
+            this.lineShape30.X2 = 835;
+            this.lineShape30.Y1 = 63;
+            this.lineShape30.Y2 = 103;
             // 
-            // lineShape5
+            // lineShape29
             // 
-            this.lineShape5.Name = "lineShape5";
-            this.lineShape5.X1 = 44;
-            this.lineShape5.X2 = 385;
-            this.lineShape5.Y1 = 560;
-            this.lineShape5.Y2 = 560;
+            this.lineShape29.Name = "lineShape29";
+            this.lineShape29.X1 = 797;
+            this.lineShape29.X2 = 798;
+            this.lineShape29.Y1 = 65;
+            this.lineShape29.Y2 = 100;
+            // 
+            // lineShape28
+            // 
+            this.lineShape28.Name = "lineShape28";
+            this.lineShape28.X1 = 837;
+            this.lineShape28.X2 = 837;
+            this.lineShape28.Y1 = 251;
+            this.lineShape28.Y2 = 291;
+            // 
+            // lineShape27
+            // 
+            this.lineShape27.Name = "lineShape27";
+            this.lineShape27.X1 = 799;
+            this.lineShape27.X2 = 800;
+            this.lineShape27.Y1 = 253;
+            this.lineShape27.Y2 = 288;
+            // 
+            // lineShape26
+            // 
+            this.lineShape26.Name = "lineShape26";
+            this.lineShape26.X1 = 835;
+            this.lineShape26.X2 = 835;
+            this.lineShape26.Y1 = 347;
+            this.lineShape26.Y2 = 387;
+            // 
+            // lineShape19
+            // 
+            this.lineShape19.Name = "lineShape19";
+            this.lineShape19.X1 = 797;
+            this.lineShape19.X2 = 798;
+            this.lineShape19.Y1 = 347;
+            this.lineShape19.Y2 = 384;
+            // 
+            // lineShape25
+            // 
+            this.lineShape25.Name = "lineShape25";
+            this.lineShape25.X1 = 836;
+            this.lineShape25.X2 = 836;
+            this.lineShape25.Y1 = 158;
+            this.lineShape25.Y2 = 198;
+            // 
+            // lineShape24
+            // 
+            this.lineShape24.Name = "lineShape24";
+            this.lineShape24.X1 = 798;
+            this.lineShape24.X2 = 799;
+            this.lineShape24.Y1 = 160;
+            this.lineShape24.Y2 = 195;
+            // 
+            // lineShape23
+            // 
+            this.lineShape23.Name = "lineShape23";
+            this.lineShape23.X1 = 832;
+            this.lineShape23.X2 = 834;
+            this.lineShape23.Y1 = 445;
+            this.lineShape23.Y2 = 493;
+            // 
+            // lineShape22
+            // 
+            this.lineShape22.Name = "lineShape22";
+            this.lineShape22.X1 = 798;
+            this.lineShape22.X2 = 797;
+            this.lineShape22.Y1 = 444;
+            this.lineShape22.Y2 = 490;
+            // 
+            // lineShape21
+            // 
+            this.lineShape21.Name = "lineShape21";
+            this.lineShape21.X1 = 837;
+            this.lineShape21.X2 = 837;
+            this.lineShape21.Y1 = 546;
+            this.lineShape21.Y2 = 586;
+            // 
+            // lineShape20
+            // 
+            this.lineShape20.Name = "lineShape20";
+            this.lineShape20.X1 = 799;
+            this.lineShape20.X2 = 800;
+            this.lineShape20.Y1 = 548;
+            this.lineShape20.Y2 = 583;
+            // 
+            // lineShape18
+            // 
+            this.lineShape18.Name = "lineShape18";
+            this.lineShape18.X1 = 637;
+            this.lineShape18.X2 = 776;
+            this.lineShape18.Y1 = 149;
+            this.lineShape18.Y2 = 129;
+            // 
+            // lineShape17
+            // 
+            this.lineShape17.Name = "lineShape17";
+            this.lineShape17.X1 = 660;
+            this.lineShape17.X2 = 778;
+            this.lineShape17.Y1 = 93;
+            this.lineShape17.Y2 = 127;
+            // 
+            // ovalShape12
+            // 
+            this.ovalShape12.Location = new System.Drawing.Point(600, 86);
+            this.ovalShape12.Name = "ovalShape12";
+            this.ovalShape12.Size = new System.Drawing.Size(74, 62);
+            // 
+            // lineShape16
+            // 
+            this.lineShape16.Name = "lineShape16";
+            this.lineShape16.X1 = 639;
+            this.lineShape16.X2 = 778;
+            this.lineShape16.Y1 = 241;
+            this.lineShape16.Y2 = 221;
+            // 
+            // lineShape15
+            // 
+            this.lineShape15.Name = "lineShape15";
+            this.lineShape15.X1 = 662;
+            this.lineShape15.X2 = 780;
+            this.lineShape15.Y1 = 185;
+            this.lineShape15.Y2 = 219;
+            // 
+            // ovalShape11
+            // 
+            this.ovalShape11.Location = new System.Drawing.Point(602, 178);
+            this.ovalShape11.Name = "ovalShape11";
+            this.ovalShape11.Size = new System.Drawing.Size(74, 62);
+            // 
+            // lineShape14
+            // 
+            this.lineShape14.Name = "lineShape14";
+            this.lineShape14.X1 = 639;
+            this.lineShape14.X2 = 778;
+            this.lineShape14.Y1 = 333;
+            this.lineShape14.Y2 = 313;
+            // 
+            // lineShape13
+            // 
+            this.lineShape13.Name = "lineShape13";
+            this.lineShape13.X1 = 662;
+            this.lineShape13.X2 = 780;
+            this.lineShape13.Y1 = 277;
+            this.lineShape13.Y2 = 311;
+            // 
+            // ovalShape10
+            // 
+            this.ovalShape10.Location = new System.Drawing.Point(602, 270);
+            this.ovalShape10.Name = "ovalShape10";
+            this.ovalShape10.Size = new System.Drawing.Size(74, 62);
+            // 
+            // lineShape12
+            // 
+            this.lineShape12.Name = "lineShape12";
+            this.lineShape12.X1 = 639;
+            this.lineShape12.X2 = 778;
+            this.lineShape12.Y1 = 433;
+            this.lineShape12.Y2 = 413;
+            // 
+            // lineShape11
+            // 
+            this.lineShape11.Name = "lineShape11";
+            this.lineShape11.X1 = 662;
+            this.lineShape11.X2 = 780;
+            this.lineShape11.Y1 = 377;
+            this.lineShape11.Y2 = 411;
+            // 
+            // ovalShape9
+            // 
+            this.ovalShape9.Location = new System.Drawing.Point(602, 370);
+            this.ovalShape9.Name = "ovalShape9";
+            this.ovalShape9.Size = new System.Drawing.Size(74, 62);
+            // 
+            // lineShape10
+            // 
+            this.lineShape10.Name = "lineShape10";
+            this.lineShape10.X1 = 637;
+            this.lineShape10.X2 = 776;
+            this.lineShape10.Y1 = 543;
+            this.lineShape10.Y2 = 523;
+            // 
+            // lineShape9
+            // 
+            this.lineShape9.Name = "lineShape9";
+            this.lineShape9.X1 = 660;
+            this.lineShape9.X2 = 778;
+            this.lineShape9.Y1 = 487;
+            this.lineShape9.Y2 = 521;
+            // 
+            // ovalShape8
+            // 
+            this.ovalShape8.Location = new System.Drawing.Point(600, 480);
+            this.ovalShape8.Name = "ovalShape8";
+            this.ovalShape8.Size = new System.Drawing.Size(74, 62);
+            // 
+            // lineShape8
+            // 
+            this.lineShape8.Name = "lineShape8";
+            this.lineShape8.X1 = 639;
+            this.lineShape8.X2 = 778;
+            this.lineShape8.Y1 = 635;
+            this.lineShape8.Y2 = 615;
+            // 
+            // ovalShape7
+            // 
+            this.ovalShape7.Location = new System.Drawing.Point(602, 572);
+            this.ovalShape7.Name = "ovalShape7";
+            this.ovalShape7.Size = new System.Drawing.Size(74, 62);
+            // 
+            // lineShape7
+            // 
+            this.lineShape7.Name = "lineShape7";
+            this.lineShape7.X1 = 662;
+            this.lineShape7.X2 = 780;
+            this.lineShape7.Y1 = 579;
+            this.lineShape7.Y2 = 613;
+            // 
+            // ovalShape6
+            // 
+            this.ovalShape6.Location = new System.Drawing.Point(779, 579);
+            this.ovalShape6.Name = "ovalShape6";
+            this.ovalShape6.Size = new System.Drawing.Size(74, 62);
+            // 
+            // ovalShape5
+            // 
+            this.ovalShape5.Location = new System.Drawing.Point(779, 488);
+            this.ovalShape5.Name = "ovalShape5";
+            this.ovalShape5.Size = new System.Drawing.Size(74, 62);
+            // 
+            // ovalShape4
+            // 
+            this.ovalShape4.Location = new System.Drawing.Point(779, 384);
+            this.ovalShape4.Name = "ovalShape4";
+            this.ovalShape4.Size = new System.Drawing.Size(74, 62);
+            // 
+            // ovalShape3
+            // 
+            this.ovalShape3.Location = new System.Drawing.Point(779, 284);
+            this.ovalShape3.Name = "ovalShape3";
+            this.ovalShape3.Size = new System.Drawing.Size(74, 62);
+            // 
+            // ovalShape2
+            // 
+            this.ovalShape2.Location = new System.Drawing.Point(779, 194);
+            this.ovalShape2.Name = "ovalShape2";
+            this.ovalShape2.Size = new System.Drawing.Size(74, 62);
+            // 
+            // ovalShape1
+            // 
+            this.ovalShape1.Location = new System.Drawing.Point(779, 100);
+            this.ovalShape1.Name = "ovalShape1";
+            this.ovalShape1.Size = new System.Drawing.Size(74, 62);
             // 
             // tabPage2
             // 
@@ -512,473 +930,50 @@
             this.tabPage2.Text = "Options";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // ovalShape1
-            // 
-            this.ovalShape1.Location = new System.Drawing.Point(779, 100);
-            this.ovalShape1.Name = "ovalShape1";
-            this.ovalShape1.Size = new System.Drawing.Size(74, 62);
-            // 
-            // ovalShape2
-            // 
-            this.ovalShape2.Location = new System.Drawing.Point(779, 194);
-            this.ovalShape2.Name = "ovalShape2";
-            this.ovalShape2.Size = new System.Drawing.Size(74, 62);
-            // 
-            // ovalShape3
-            // 
-            this.ovalShape3.Location = new System.Drawing.Point(779, 284);
-            this.ovalShape3.Name = "ovalShape3";
-            this.ovalShape3.Size = new System.Drawing.Size(74, 62);
-            // 
-            // ovalShape4
-            // 
-            this.ovalShape4.Location = new System.Drawing.Point(779, 384);
-            this.ovalShape4.Name = "ovalShape4";
-            this.ovalShape4.Size = new System.Drawing.Size(74, 62);
-            // 
-            // ovalShape5
-            // 
-            this.ovalShape5.Location = new System.Drawing.Point(779, 488);
-            this.ovalShape5.Name = "ovalShape5";
-            this.ovalShape5.Size = new System.Drawing.Size(74, 62);
-            // 
-            // ovalShape6
-            // 
-            this.ovalShape6.Location = new System.Drawing.Point(779, 579);
-            this.ovalShape6.Name = "ovalShape6";
-            this.ovalShape6.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape7
-            // 
-            this.lineShape7.Name = "lineShape7";
-            this.lineShape7.X1 = 662;
-            this.lineShape7.X2 = 780;
-            this.lineShape7.Y1 = 579;
-            this.lineShape7.Y2 = 613;
-            // 
-            // ovalShape7
-            // 
-            this.ovalShape7.Location = new System.Drawing.Point(602, 572);
-            this.ovalShape7.Name = "ovalShape7";
-            this.ovalShape7.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape8
-            // 
-            this.lineShape8.Name = "lineShape8";
-            this.lineShape8.X1 = 639;
-            this.lineShape8.X2 = 778;
-            this.lineShape8.Y1 = 635;
-            this.lineShape8.Y2 = 615;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(706, 579);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 13);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Load";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(706, 632);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Unload";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(706, 541);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "Unload";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(706, 488);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "Load";
-            // 
-            // ovalShape8
-            // 
-            this.ovalShape8.Location = new System.Drawing.Point(600, 480);
-            this.ovalShape8.Name = "ovalShape8";
-            this.ovalShape8.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape9
-            // 
-            this.lineShape9.Name = "lineShape9";
-            this.lineShape9.X1 = 660;
-            this.lineShape9.X2 = 778;
-            this.lineShape9.Y1 = 487;
-            this.lineShape9.Y2 = 521;
-            // 
-            // lineShape10
-            // 
-            this.lineShape10.Name = "lineShape10";
-            this.lineShape10.X1 = 637;
-            this.lineShape10.X2 = 776;
-            this.lineShape10.Y1 = 543;
-            this.lineShape10.Y2 = 523;
-            // 
-            // ovalShape9
-            // 
-            this.ovalShape9.Location = new System.Drawing.Point(602, 370);
-            this.ovalShape9.Name = "ovalShape9";
-            this.ovalShape9.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape11
-            // 
-            this.lineShape11.Name = "lineShape11";
-            this.lineShape11.X1 = 662;
-            this.lineShape11.X2 = 780;
-            this.lineShape11.Y1 = 377;
-            this.lineShape11.Y2 = 411;
-            // 
-            // lineShape12
-            // 
-            this.lineShape12.Name = "lineShape12";
-            this.lineShape12.X1 = 639;
-            this.lineShape12.X2 = 778;
-            this.lineShape12.Y1 = 433;
-            this.lineShape12.Y2 = 413;
-            // 
-            // ovalShape10
-            // 
-            this.ovalShape10.Location = new System.Drawing.Point(602, 270);
-            this.ovalShape10.Name = "ovalShape10";
-            this.ovalShape10.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape13
-            // 
-            this.lineShape13.Name = "lineShape13";
-            this.lineShape13.X1 = 662;
-            this.lineShape13.X2 = 780;
-            this.lineShape13.Y1 = 277;
-            this.lineShape13.Y2 = 311;
-            // 
-            // lineShape14
-            // 
-            this.lineShape14.Name = "lineShape14";
-            this.lineShape14.X1 = 639;
-            this.lineShape14.X2 = 778;
-            this.lineShape14.Y1 = 333;
-            this.lineShape14.Y2 = 313;
-            // 
-            // ovalShape11
-            // 
-            this.ovalShape11.Location = new System.Drawing.Point(602, 178);
-            this.ovalShape11.Name = "ovalShape11";
-            this.ovalShape11.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape15
-            // 
-            this.lineShape15.Name = "lineShape15";
-            this.lineShape15.X1 = 662;
-            this.lineShape15.X2 = 780;
-            this.lineShape15.Y1 = 185;
-            this.lineShape15.Y2 = 219;
-            // 
-            // lineShape16
-            // 
-            this.lineShape16.Name = "lineShape16";
-            this.lineShape16.X1 = 639;
-            this.lineShape16.X2 = 778;
-            this.lineShape16.Y1 = 241;
-            this.lineShape16.Y2 = 221;
-            // 
-            // ovalShape12
-            // 
-            this.ovalShape12.Location = new System.Drawing.Point(600, 86);
-            this.ovalShape12.Name = "ovalShape12";
-            this.ovalShape12.Size = new System.Drawing.Size(74, 62);
-            // 
-            // lineShape17
-            // 
-            this.lineShape17.Name = "lineShape17";
-            this.lineShape17.X1 = 660;
-            this.lineShape17.X2 = 778;
-            this.lineShape17.Y1 = 93;
-            this.lineShape17.Y2 = 127;
-            // 
-            // lineShape18
-            // 
-            this.lineShape18.Name = "lineShape18";
-            this.lineShape18.X1 = 637;
-            this.lineShape18.X2 = 776;
-            this.lineShape18.Y1 = 149;
-            this.lineShape18.Y2 = 129;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(706, 426);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
-            this.label5.TabIndex = 31;
-            this.label5.Text = "Unload";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(706, 373);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Load";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(706, 326);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 13);
-            this.label7.TabIndex = 33;
-            this.label7.Text = "Unload";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(706, 273);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
-            this.label8.TabIndex = 32;
-            this.label8.Text = "Load";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(706, 241);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 13);
-            this.label9.TabIndex = 35;
-            this.label9.Text = "Unload";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(706, 188);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 13);
-            this.label10.TabIndex = 34;
-            this.label10.Text = "Load";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(706, 149);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 37;
-            this.label11.Text = "Unload";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(706, 96);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 13);
-            this.label12.TabIndex = 36;
-            this.label12.Text = "Load";
-            // 
-            // lineShape20
-            // 
-            this.lineShape20.Name = "lineShape20";
-            this.lineShape20.X1 = 799;
-            this.lineShape20.X2 = 800;
-            this.lineShape20.Y1 = 548;
-            this.lineShape20.Y2 = 583;
-            // 
-            // lineShape21
-            // 
-            this.lineShape21.Name = "lineShape21";
-            this.lineShape21.X1 = 837;
-            this.lineShape21.X2 = 837;
-            this.lineShape21.Y1 = 546;
-            this.lineShape21.Y2 = 586;
-            // 
-            // lineShape22
-            // 
-            this.lineShape22.Name = "lineShape22";
-            this.lineShape22.X1 = 798;
-            this.lineShape22.X2 = 797;
-            this.lineShape22.Y1 = 444;
-            this.lineShape22.Y2 = 490;
-            // 
-            // lineShape23
-            // 
-            this.lineShape23.Name = "lineShape23";
-            this.lineShape23.X1 = 832;
-            this.lineShape23.X2 = 834;
-            this.lineShape23.Y1 = 445;
-            this.lineShape23.Y2 = 493;
-            // 
-            // lineShape24
-            // 
-            this.lineShape24.Name = "lineShape24";
-            this.lineShape24.X1 = 798;
-            this.lineShape24.X2 = 799;
-            this.lineShape24.Y1 = 160;
-            this.lineShape24.Y2 = 195;
-            // 
-            // lineShape25
-            // 
-            this.lineShape25.Name = "lineShape25";
-            this.lineShape25.X1 = 836;
-            this.lineShape25.X2 = 836;
-            this.lineShape25.Y1 = 158;
-            this.lineShape25.Y2 = 198;
-            // 
-            // lineShape19
-            // 
-            this.lineShape19.Name = "lineShape19";
-            this.lineShape19.X1 = 797;
-            this.lineShape19.X2 = 798;
-            this.lineShape19.Y1 = 347;
-            this.lineShape19.Y2 = 384;
-            // 
-            // lineShape26
-            // 
-            this.lineShape26.Name = "lineShape26";
-            this.lineShape26.X1 = 835;
-            this.lineShape26.X2 = 835;
-            this.lineShape26.Y1 = 347;
-            this.lineShape26.Y2 = 387;
-            // 
-            // lineShape27
-            // 
-            this.lineShape27.Name = "lineShape27";
-            this.lineShape27.X1 = 799;
-            this.lineShape27.X2 = 800;
-            this.lineShape27.Y1 = 253;
-            this.lineShape27.Y2 = 288;
-            // 
-            // lineShape28
-            // 
-            this.lineShape28.Name = "lineShape28";
-            this.lineShape28.X1 = 837;
-            this.lineShape28.X2 = 837;
-            this.lineShape28.Y1 = 251;
-            this.lineShape28.Y2 = 291;
-            // 
-            // lineShape29
-            // 
-            this.lineShape29.Name = "lineShape29";
-            this.lineShape29.X1 = 797;
-            this.lineShape29.X2 = 798;
-            this.lineShape29.Y1 = 65;
-            this.lineShape29.Y2 = 100;
-            // 
-            // lineShape30
-            // 
-            this.lineShape30.Name = "lineShape30";
-            this.lineShape30.X1 = 835;
-            this.lineShape30.X2 = 835;
-            this.lineShape30.Y1 = 63;
-            this.lineShape30.Y2 = 103;
-            // 
-            // lineShape31
-            // 
-            this.lineShape31.Name = "lineShape31";
-            this.lineShape31.X1 = 831;
-            this.lineShape31.X2 = 801;
-            this.lineShape31.Y1 = 671;
-            this.lineShape31.Y2 = 672;
-            // 
-            // lineShape32
-            // 
-            this.lineShape32.Name = "lineShape32";
-            this.lineShape32.X1 = 833;
-            this.lineShape32.X2 = 800;
-            this.lineShape32.Y1 = 62;
-            this.lineShape32.Y2 = 66;
-            // 
-            // lineShape33
-            // 
-            this.lineShape33.Name = "lineShape33";
-            this.lineShape33.X1 = 797;
-            this.lineShape33.X2 = 798;
-            this.lineShape33.Y1 = 638;
-            this.lineShape33.Y2 = 673;
-            // 
-            // lineShape34
-            // 
-            this.lineShape34.Name = "lineShape34";
-            this.lineShape34.X1 = 835;
-            this.lineShape34.X2 = 835;
-            this.lineShape34.Y1 = 636;
-            this.lineShape34.Y2 = 676;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(814, 49);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(21, 13);
-            this.label13.TabIndex = 38;
-            this.label13.Text = "Up";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(848, 265);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(21, 13);
-            this.label14.TabIndex = 39;
-            this.label14.Text = "Up";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(848, 365);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(21, 13);
-            this.label15.TabIndex = 40;
-            this.label15.Text = "Up";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(848, 464);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(21, 13);
-            this.label16.TabIndex = 41;
-            this.label16.Text = "Up";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(848, 563);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(21, 13);
-            this.label17.TabIndex = 42;
-            this.label17.Text = "Up";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(848, 181);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(21, 13);
-            this.label18.TabIndex = 43;
-            this.label18.Text = "Up";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(554, 357);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(35, 13);
-            this.label19.TabIndex = 44;
-            this.label19.Text = "Down";
-            this.label19.Click += new System.EventHandler(this.label19_Click);
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(767, 265);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(35, 13);
+            this.label20.TabIndex = 45;
+            this.label20.Text = "Down";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(762, 365);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(35, 13);
+            this.label21.TabIndex = 46;
+            this.label21.Text = "Down";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(762, 464);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(35, 13);
+            this.label22.TabIndex = 47;
+            this.label22.Text = "Down";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(762, 563);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(35, 13);
+            this.label23.TabIndex = 48;
+            this.label23.Text = "Down";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(803, 690);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(35, 13);
+            this.label24.TabIndex = 49;
+            this.label24.Text = "Down";
             // 
             // Form1
             // 
@@ -1009,12 +1004,6 @@
         private System.Windows.Forms.Label floorFive;
         private System.Windows.Forms.Button oneStepButton;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape5;
         private System.Windows.Forms.Label currentStatusLabel;
         private System.Windows.Forms.ListBox floorZeroListBox;
         private System.Windows.Forms.ListBox floorOneListBox;
@@ -1088,6 +1077,11 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
     }
 }
 

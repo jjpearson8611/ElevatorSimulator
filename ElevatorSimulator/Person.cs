@@ -15,6 +15,23 @@ namespace ElevatorSimulator
             this.DestinationFloor = destinationFloor;
         }
 
+        public Person()
+        {
+            Random TempRandom = new Random();
+            
+            this.StartingFloor = TempRandom.Next(0, 6);
+            this.DestinationFloor = TempRandom.Next(0, 6);
+
+            while(this.DestinationFloor == this.StartingFloor)
+            {
+                this.DestinationFloor = TempRandom.Next(0, 6);
+            }
+
+        }
+
+
+        #region Properties
+
         //Properties
         public int StartingFloor
         {
@@ -36,6 +53,7 @@ namespace ElevatorSimulator
             get;
             set;
         }
+        #endregion
 
         //Public Methods
         /// <summary>

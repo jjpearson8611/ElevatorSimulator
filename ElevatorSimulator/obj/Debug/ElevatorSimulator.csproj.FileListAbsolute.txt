@@ -10,3 +10,9 @@ c:\users\desktop\documents\visual studio 2012\Projects\ElevatorSimulator\Elevato
 C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\bin\Debug\ElevatorSimulator.exe.config
 C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.exe
 C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.pdb
+C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\bin\Debug\ElevatorSimulator.exe
+C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\bin\Debug\ElevatorSimulator.pdb
+C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.csprojResolveAssemblyReference.cache
+C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.Form1.resources
+C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.Properties.Resources.resources
+C:\Users\BuckDich\Documents\GitHub\ElevatorSimulator\ElevatorSimulator\obj\Debug\ElevatorSimulator.csproj.GenerateResource.Cache
