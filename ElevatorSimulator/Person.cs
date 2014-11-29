@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElevatorSimulator
 {
-    class Person
+    public class Person
     {
         //Constructors
         public Person(int startingFloor, int destinationFloor)
@@ -63,7 +63,14 @@ namespace ElevatorSimulator
         /// <returns></returns>
         public int GetDirection()
         {
-            return (StartingFloor - DestinationFloor) * -1;
+            if (StartingFloor > DestinationFloor)
+            {
+                return -1;
+            }
+            else
+            {
+                return 1;
+            }
         }
 
         public override string ToString()

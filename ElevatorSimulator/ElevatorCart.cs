@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
 
@@ -17,9 +17,11 @@ namespace ElevatorSimulator
         {
             this.ElevatorNumber = elevatorNumber;
             this.CurrentFloor = startingFloor;
-            Direction = 0;
+            Direction = -1;
             loading = true;
-            otherDirection = 0;
+            this.Floors = new List<Label>();
+            this.PersonsOnCart = new List<Person>();
+            this.FloorLine = new List<ListBox>();
         }
 
 
@@ -40,22 +42,23 @@ namespace ElevatorSimulator
             get;
             set;
         }
-        public int otherDirection
-        {
-            get;
-            set;
-        }   
+
         public int Direction
         {
             get;
             set;
         }
-        public ArrayList Floors
+        public ListBox ElevatorInventory
         {
             get;
             set;
         }
-        public ArrayList PersonsOnCart
+        public List<Label> Floors
+        {
+            get;
+            set;
+        }
+        public List<Person> PersonsOnCart
         {
             get;
             set;
@@ -65,58 +68,44 @@ namespace ElevatorSimulator
             get;
             set;
         }
+        public List<ListBox> FloorLine
+        {
+            get;
+            set;
+        }
         #endregion
 
         //Public Methods
-        public ArrayList doOneTick(ArrayList AllPeople)
+        public List<Person> doOneTick(List<Person> AllPeople)
         {
-            if (AllPeople.Count == 0)
+
+            if (AllPeople.Count == 0 && this.ElevatorInventory.Items.Count == 0)
             {
                 goToGroundFloor();
             }
             else
             {
                 //we are standing still are we done moving what now
-                if (Direction == 0)
+                switch (Direction)
                 {
-                    if (loading)
-                    {
-                        GetPeopleAtLevel(AllPeople);
-                        foreach (Person person in DropPeopleOff())
+                    //going upwards
+                    case 1:
+                        HandleUp(AllPeople);
+                        break;
+                    case 0:
+                        if (AllPeople.Count != 0)
                         {
-                            AllPeople.Remove(person);
+                            Direction = 1;
                         }
-                        loading = false;
-                    }
-                    else
-                    {
-                        Direction = otherDirection;
-                    }
-                }
+                        break;
 
-                //going upwards
-                if (Direction == 1)
-                {
-                    if (CurrentFloor == 5)
-                    {
-                        Direction = -1;
-                    }
-                    otherDirection = Direction;
+                    //going downwards
+                    case -1:
+                        HandleDown(AllPeople);
+                        break;
                 }
-
-                //going downwards
-                if (Direction == -1)
-                {
-                    if (CurrentFloor == 0)
-                    {
-                        Direction = 1;
-                    }
-                    otherDirection = Direction;
-                }
-
             }
 
-            updateGUI();
             return AllPeople;
         }
 
@@ -124,63 +113,114 @@ namespace ElevatorSimulator
         //Private Methods
         private void goToGroundFloor()
         {
-            if (CurrentFloor == 0)
-            {
-                Direction = 1;
-            }
-            else if (CurrentFloor == 1)
-            {
-                Direction = 0;
-            }
-            else
+            if (CurrentFloor > 0)
             {
                 Direction = -1;
             }
+            else
+            {
+                Direction = 0;
+            }
+            updateGUI();
         }
 
-        private ArrayList GetPeopleAtLevel(ArrayList AllPeople)
+        private void HandleDown(List<Person> AllPeople)
         {
-            ArrayList temp = new ArrayList();
-
-            foreach (var person in AllPeople)
+            if (CurrentFloor == 0)
             {
-                //the person wants this floor and is in the cart
-                if (((Person)person).CurrentFloor == this.CurrentFloor && ((Person)person).CurrentCart == null)
+                if (AllPeople.Count == 0 && ElevatorInventory.Items.Count == 0)
                 {
-                    //are we going the way that the person wants?
-                    if (this.Direction > 0 && ((Person)person).GetDirection() > 0)
-                    {
-                        ((Person)person).CurrentCart = this;
-                        temp.Add(person);
-                    }
-
-                    //are we going the way that the person wants?
-                    else if (this.Direction < 0 && ((Person)person).GetDirection() < 0)
-                    {
-                        ((Person)person).CurrentCart = this;
-                        temp.Add(person);
-                    }
+                    Direction = 0;
+                }
+                else
+                {
+                    Direction = 1;
                 }
             }
 
-            return temp;
+            GetPeopleAtLevel(AllPeople);
+            DropPeopleOff(AllPeople);
+            updateGUI();
+        }
+        private void HandleUp(List<Person> AllPeople)
+        {
+            //reverse direction if we are at the top
+            if (CurrentFloor == 5)
+            {
+                if (AllPeople.Count == 0 && ElevatorInventory.Items.Count == 0)
+                {
+                    Direction = 0;
+                }
+                else
+                {
+                    Direction = -1;
+                }
+            }
+            GetPeopleAtLevel(AllPeople);
+            DropPeopleOff(AllPeople);
+            if (AllPeople.Count == 0 && this.ElevatorInventory.Items.Count == 0)
+            {
+                Direction = 0;
+            }
+
+            updateGUI();
+        } 
+
+        private void GetPeopleAtLevel(List<Person> AllPeople)
+        {
+            //check if anyone above us needss to be picked up
+            for (int i = 0; i < AllPeople.Count; i++)
+            {
+                if (AllPeople[i].CurrentFloor == this.CurrentFloor && AllPeople[i].GetDirection() == this.Direction)
+                {
+                    this.PersonsOnCart.Add(AllPeople[i]);
+                    RemoveFromList(this.CurrentFloor, AllPeople[i]);
+                    AllPeople.Remove(AllPeople[i]);
+                    i--;
+                }
+            }
         }
 
-        private ArrayList DropPeopleOff()
+        private void RemoveFromList(int floor, Person person)
         {
-            ArrayList returningList = new ArrayList();
-            if (PersonsOnCart != null)
+            switch (floor)
             {
-                foreach (var person in PersonsOnCart)
-                {
-                    if (((Person)person).DestinationFloor == CurrentFloor)
-                    {
-                        returningList.Add(person);
-                    }
-                }
-
+                case 0:
+                    FloorLine[0].Items.Remove(person);
+                    break;
+                case 1:
+                    FloorLine[1].Items.Remove(person);
+                    break;
+                case 2:
+                    FloorLine[2].Items.Remove(person);
+                    break;
+                case 3:
+                    FloorLine[3].Items.Remove(person);
+                    break;
+                case 4:
+                    FloorLine[4].Items.Remove(person);
+                    break;
+                case 5:
+                    FloorLine[5].Items.Remove(person);
+                    break;
             }
-            return returningList;
+            ElevatorInventory.Items.Add(person);
+        }
+
+        private void DropPeopleOff(List<Person> AllPeople)
+        {
+            //now drop off people we have too
+            for (int i = 0; i < this.PersonsOnCart.Count; i++)
+            {
+                //if they are going to the floor we are on
+                if (this.PersonsOnCart[i].DestinationFloor == this.CurrentFloor)
+                {
+                    //drop them off and remove them from both lists
+                    this.ElevatorInventory.Items.Remove(this.PersonsOnCart[i]);
+                    this.PersonsOnCart.Remove(this.PersonsOnCart[i]);
+                    i--;
+                }
+            }
         }
         #endregion
 

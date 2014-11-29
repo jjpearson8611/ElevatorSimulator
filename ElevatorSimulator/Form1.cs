@@ -13,9 +13,9 @@ namespace ElevatorSimulator
 {
     public partial class Form1 : Form
     {
-        public ElevatorCart cartOne = new ElevatorCart(0,3);
+        public ElevatorCart cartOne = new ElevatorCart(0, 3);
         Random Generator = new Random();
-        ArrayList Persons = new ArrayList();
+        List<Person> Persons = new List<Person>();
 
         public Form1()
         {
@@ -30,13 +30,22 @@ namespace ElevatorSimulator
         private void Form1_Load(object sender, EventArgs e)
         {
             currentStatusLabel.Text = "Current Status: Waiting For Guests";
-            ArrayList temp = new ArrayList();
+            List<Label> temp = new List<Label>();
             temp.Add(this.floorZero);
             temp.Add(this.floorOne);
             temp.Add(this.floorTwo);
             temp.Add(this.floorThree);
             temp.Add(this.floorFour);
             temp.Add(this.floorFive);
+            List<ListBox> listboxes = new List<ListBox>();
+            listboxes.Add(this.floorZeroListBox);
+            listboxes.Add(this.floorOneListBox);
+            listboxes.Add(this.floorTwoListBox);
+            listboxes.Add(this.floorThreeListBox);
+            listboxes.Add(this.floorFourListBox);
+            listboxes.Add(this.floorFiveListBox);
+            cartOne.FloorLine = listboxes;
+            cartOne.ElevatorInventory = elevatorListBox;
             cartOne.Floors = temp;
             cartOne.Status = this.currentStatusLabel;
             Persons = cartOne.doOneTick(Persons);
@@ -132,5 +141,32 @@ namespace ElevatorSimulator
                     break;
             }
         }
+
+        private void addTenButton_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                randomPersonButton_Click(sender, e);
+            }
+        }
+
+        private void automateCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.automateCheckBox.Checked)
+            {
+                automationTimer.Enabled = true;
+            }
+            else
+            {
+                automationTimer.Enabled = false;
+            }
+        }
+
+        private void automationTime_Scroll(object sender, EventArgs e)
+        {
+            tickLabel.Text = this.automationTime.Value.ToString();
+            automationTimer.Interval = this.automationTime.Value;
+        }
+
     }
 }
